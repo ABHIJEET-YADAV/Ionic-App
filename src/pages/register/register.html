@@ -1,0 +1,51 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Create Account
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-list>
+
+  <ion-item>
+    <ion-label floating>Username</ion-label>
+    <ion-input type="text" #username></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label floating>Email ID</ion-label>
+    <ion-input type="text" #email></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label floating>Password</ion-label>
+    <ion-input type="password" #password></ion-input>
+  </ion-item>
+
+</ion-list>
+
+<div padding>
+  <button block ion-button item-left>Register</button>
+</div>
+
+<ion-list>
+
+<ion-item>
+
+  <div id="topButtons">
+  <button class="loginBtn loginBtn--facebook">
+    Register with Facebook
+  </button>
+  <button class="loginBtn loginBtn--google">
+    Register with Google
+  </button>
+  </div>
+
+</ion-item>
+
+</ion-list>
+
+</ion-content>
